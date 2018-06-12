@@ -31,7 +31,20 @@ and cause the data is relative small, so use the argument to increase the data:
 ###### this is a problem i met: if i transform this data into the xxx.npy this will be too big:    
 
 this pic of data is show in the data filefold, (not all, just some of them, if someone interest in it can go to the baiduyunpan:)
+  
+  
+	def lr_decay(epoch):# this code is main to adjust the learning_rate with the epochs change
+	    lrs = [0.0001, 0.00001, 0.00001, 0.00001, 0.00001, 0.00001, 0.00001, 0.00001, 0.00001, 0.000001, 0.0000001]
+	    return lrs[epoch]
+	    
+##### inception-v3-single_model finally achieve the acc=0.77   
+if use mix model the resnet and the xception, the train time will decrease and the acc will increase;
+this part i m ding now, maybe some time will commit the code and the result.
+##### ps: i really need a marchine can cal the big data.................
+the code of train_data is show at the train_data.py
 
+
+	    
 
 
 
