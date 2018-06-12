@@ -41,7 +41,7 @@ this pic of data is show in the data filefold, (not all, just some of them, if s
 if use mix model the resnet and the xception, the train time will decrease and the acc will increase;
 this part i m ding now, maybe some time will commit the code and the result.
 ##### ps: i really need a marchine can cal the big data.................
-the code of train_data is show at the train_data.py
+the code of train_data is show at the [train_data.py](https://github.com/frank-xman/dog_breed_indification/blob/master/train_data.py)
 
 
 	    
