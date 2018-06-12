@@ -25,10 +25,13 @@ and cause the data is relative small, so use the argument to increase the data:
 			horizontal_flip=True,
 			vertical_flip=True)
 		train_generator = train_datagen.flow_from_directory(directory='train1/',
-										  target_size=(299,299),  # inception V3 image_size, the resnet is (224,224)
-										  batch_size=48)
+								target_size=(299,299),  
+								batch_size=48)
 
-###### this is a problem i met: if i transform this data into the xxx.npy this will be too big:    
+###### this is a problem i met: if i transform this data into the xxx.npy this will be too big:      
+![the_pic_1](https://github.com/frank-xman/dog_breed_indification/blob/master/data/2_0_2665.jpg)
+![the_pic_2](https://github.com/frank-xman/dog_breed_indification/blob/master/data/2_0_614.jpg)
+![the_pic_3](https://github.com/frank-xman/dog_breed_indification/blob/master/data/2_0_8728.jpg)
 
 this pic of data is show in the data filefold, (not all, just some of them, if someone interest in it can go to the baiduyunpan:)
   
