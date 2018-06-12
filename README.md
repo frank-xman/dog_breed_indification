@@ -28,10 +28,13 @@ and cause the data is relative small, so use the argument to increase the data:
 								target_size=(299,299),  
 								batch_size=48)
 
-###### this is a problem i met: if i transform this data into the xxx.npy this will be too big:      
-![the_pic_1](https://github.com/frank-xman/dog_breed_indification/blob/master/data/2_0_2665.jpg)
-![the_pic_2](https://github.com/frank-xman/dog_breed_indification/blob/master/data/2_0_614.jpg)
-![the_pic_3](https://github.com/frank-xman/dog_breed_indification/blob/master/data/2_0_8728.jpg)
+###### this is a problem i met: if i transform this data into the xxx.npy this will be too big:   
+   
+ ### this 3 pics is use the ImageDataGenerator to generator to train the model
+
+ ![the_pic_1](https://github.com/frank-xman/dog_breed_indification/blob/master/data/2_0_2665.jpg)
+ ![the_pic_2](https://github.com/frank-xman/dog_breed_indification/blob/master/data/2_0_614.jpg)
+ ![the_pic_3](https://github.com/frank-xman/dog_breed_indification/blob/master/data/2_0_8728.jpg)
 
 this pic of data is show in the data filefold, (not all, just some of them, if someone interest in it can go to the baiduyunpan:)
   
