@@ -1,4 +1,4 @@
-# dog_breed_indification
+> # dog_breed_indification
 ---
 the statement of this dog_breeds:  
   1.this is a baidu data, not kaggle, but the model can both use;  
@@ -48,6 +48,12 @@ if use mix model the resnet and the xception, the train time will decrease and t
 this part i m ding now, maybe some time will commit the code and the result.
 ##### ps: i really need a marchine can cal the big data.................
 the code of train_data is show at the [train_data.py](https://github.com/frank-xman/dog_breed_indification/blob/master/train_data.py)
+
+and this is the train pic:  
+![train](https://github.com/frank-xman/dog_breed_indification/blob/master/training.jpg)
+  
+### res=
+![res](https://github.com/frank-xman/dog_breed_indification/blob/master/res_acc.jpg)
 
 
 	    
